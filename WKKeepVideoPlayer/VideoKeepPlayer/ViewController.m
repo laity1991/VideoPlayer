@@ -3,7 +3,7 @@
 //  WKKeepVideoPlayerDemo
 //
 //  Created by liuwenkai on 2021/8/20.
-//
+//，本框架为个人整理不涉及商用，如有问题联系QQ：815476562
 #define ScreenWidth [UIScreen mainScreen].bounds.size.width
 #define ScreenHeight [UIScreen mainScreen].bounds.size.height
 
@@ -24,7 +24,7 @@
     /*** 演示按钮 点击跳转视频播放界面 ***/
     [self prepareForUI];
     
-   /*** 加载视频资源 ，Demo加载的本地视频资源 ，方便演示把示例资源放到了本地json文件中并转成模型使用 使用时可根据后端返回调整数据结构把对应视频下载资源url添加上，本框架为个人整理不涉及商用，如有问题联系QQ：815476562  ***/
+   /*** 加载视频资源 ，Demo加载的本地视频资源 ，方便演示把示例资源放到了本地json文件中并转成模型使用 使用时可根据后端返回调整数据结构把对应视频下载资源url添加上2 ***/
     [self loadVideoSourceData];
    
 }
