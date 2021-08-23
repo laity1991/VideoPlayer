@@ -1,0 +1,20 @@
+PODS:
+  - MJExtension (3.3.0)
+  - Toast (4.0.0)
+
+DEPENDENCIES:
+  - MJExtension
+  - Toast
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - MJExtension
+    - Toast
+
+SPEC CHECKSUMS:
+  MJExtension: 01704cca2b60a214c10761b6491eab74069d68a9
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+
+PODFILE CHECKSUM: adee03ba7df026b8537146d2021a146bc1e9064d
+
+COCOAPODS: 1.10.0

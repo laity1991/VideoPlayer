@@ -1,0 +1,6 @@
+framework module Pods_WKKeepVideoPlayer {
+  umbrella header "Pods-WKKeepVideoPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

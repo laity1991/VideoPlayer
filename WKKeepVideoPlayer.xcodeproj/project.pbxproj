@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1030DD1602D18FC7ACB0C955 /* libPods-WKKeepVideoPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 249C47216E8CB5C8E352AE77 /* libPods-WKKeepVideoPlayer.a */; };
 		8103361326CF4E5A00692B97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103361226CF4E5A00692B97 /* AppDelegate.m */; };
 		8103361626CF4E5A00692B97 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103361526CF4E5A00692B97 /* SceneDelegate.m */; };
-		8103361926CF4E5A00692B97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103361826CF4E5A00692B97 /* ViewController.m */; };
 		8103361C26CF4E5A00692B97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8103361A26CF4E5A00692B97 /* Main.storyboard */; };
 		8103361E26CF4E5B00692B97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8103361D26CF4E5B00692B97 /* Assets.xcassets */; };
 		8103362126CF4E5B00692B97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8103361F26CF4E5B00692B97 /* LaunchScreen.storyboard */; };
 		8103362426CF4E5B00692B97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103362326CF4E5B00692B97 /* main.m */; };
 		8103362E26CF4E5B00692B97 /* WKKeepVideoPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103362D26CF4E5B00692B97 /* WKKeepVideoPlayerTests.m */; };
 		8103363926CF4E5B00692B97 /* WKKeepVideoPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103363826CF4E5B00692B97 /* WKKeepVideoPlayerUITests.m */; };
+		8103365026CF4E6B00692B97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103364D26CF4E6B00692B97 /* ViewController.m */; };
+		8103365126CF4E6B00692B97 /* WKKeepVideoPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103364F26CF4E6B00692B97 /* WKKeepVideoPlayerVC.m */; };
+		8103365726CF4FE300692B97 /* WKVieoPlayerContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103365626CF4FE300692B97 /* WKVieoPlayerContainerView.m */; };
+		8103365D26CF50F200692B97 /* NetworkSpeedMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103365C26CF50F200692B97 /* NetworkSpeedMonitor.m */; };
+		8103366326CF522B00692B97 /* WKVideoBottomStripView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103366226CF522B00692B97 /* WKVideoBottomStripView.m */; };
+		810336AC26CF57F800692B97 /* WKCustomSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 810336AB26CF57F800692B97 /* WKCustomSlider.m */; };
+		810336C226CF797100692B97 /* WKVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 810336C126CF797100692B97 /* WKVideoModel.m */; };
+		810336CE26CF7FAD00692B97 /* UIFont+Pingfang.m in Sources */ = {isa = PBXBuildFile; fileRef = 810336CD26CF7FAD00692B97 /* UIFont+Pingfang.m */; };
+		810336E126CF819C00692B97 /* videosArray.json in Resources */ = {isa = PBXBuildFile; fileRef = 810336E026CF819C00692B97 /* videosArray.json */; };
+		8103370326CFA38100692B97 /* 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8103370226CFA38100692B97 /* 2.mp4 */; };
+		816BBB7D26D37DB000A0DF1E /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 816BBB7C26D37DB000A0DF1E /* 1.mp4 */; };
+		816BBB8226D37DE400A0DF1E /* 0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 816BBB8126D37DE400A0DF1E /* 0.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		249C47216E8CB5C8E352AE77 /* libPods-WKKeepVideoPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WKKeepVideoPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A3843AB73CBB294640833C /* Pods-WKKeepVideoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKKeepVideoPlayer.release.xcconfig"; path = "Target Support Files/Pods-WKKeepVideoPlayer/Pods-WKKeepVideoPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		8103360E26CF4E5A00692B97 /* WKKeepVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKKeepVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8103361126CF4E5A00692B97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8103361226CF4E5A00692B97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8103361426CF4E5A00692B97 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		8103361526CF4E5A00692B97 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		8103361726CF4E5A00692B97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8103361826CF4E5A00692B97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8103361B26CF4E5A00692B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8103361D26CF4E5B00692B97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8103362026CF4E5B00692B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +66,27 @@
 		8103363426CF4E5B00692B97 /* WKKeepVideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKKeepVideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8103363826CF4E5B00692B97 /* WKKeepVideoPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKKeepVideoPlayerUITests.m; sourceTree = "<group>"; };
 		8103363A26CF4E5B00692B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8103364C26CF4E6B00692B97 /* WKKeepVideoPlayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKKeepVideoPlayerVC.h; sourceTree = "<group>"; };
+		8103364D26CF4E6B00692B97 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8103364E26CF4E6B00692B97 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8103364F26CF4E6B00692B97 /* WKKeepVideoPlayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKKeepVideoPlayerVC.m; sourceTree = "<group>"; };
+		8103365526CF4FE300692B97 /* WKVieoPlayerContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKVieoPlayerContainerView.h; sourceTree = "<group>"; };
+		8103365626CF4FE300692B97 /* WKVieoPlayerContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKVieoPlayerContainerView.m; sourceTree = "<group>"; };
+		8103365B26CF50F200692B97 /* NetworkSpeedMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkSpeedMonitor.h; sourceTree = "<group>"; };
+		8103365C26CF50F200692B97 /* NetworkSpeedMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkSpeedMonitor.m; sourceTree = "<group>"; };
+		8103366126CF522B00692B97 /* WKVideoBottomStripView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKVideoBottomStripView.h; sourceTree = "<group>"; };
+		8103366226CF522B00692B97 /* WKVideoBottomStripView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKVideoBottomStripView.m; sourceTree = "<group>"; };
+		810336AA26CF57F800692B97 /* WKCustomSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKCustomSlider.h; sourceTree = "<group>"; };
+		810336AB26CF57F800692B97 /* WKCustomSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKCustomSlider.m; sourceTree = "<group>"; };
+		810336C026CF797100692B97 /* WKVideoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKVideoModel.h; sourceTree = "<group>"; };
+		810336C126CF797100692B97 /* WKVideoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKVideoModel.m; sourceTree = "<group>"; };
+		810336CC26CF7FAD00692B97 /* UIFont+Pingfang.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+Pingfang.h"; sourceTree = "<group>"; };
+		810336CD26CF7FAD00692B97 /* UIFont+Pingfang.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Pingfang.m"; sourceTree = "<group>"; };
+		810336E026CF819C00692B97 /* videosArray.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videosArray.json; sourceTree = "<group>"; };
+		8103370226CFA38100692B97 /* 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.mp4; sourceTree = "<group>"; };
+		816BBB7C26D37DB000A0DF1E /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
+		816BBB8126D37DE400A0DF1E /* 0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 0.mp4; sourceTree = "<group>"; };
+		D0629C7D2DF60F6681E3FBAE /* Pods-WKKeepVideoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKKeepVideoPlayer.debug.xcconfig"; path = "Target Support Files/Pods-WKKeepVideoPlayer/Pods-WKKeepVideoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1030DD1602D18FC7ACB0C955 /* libPods-WKKeepVideoPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +115,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BFB24E51BADE9EBDC21E342 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				249C47216E8CB5C8E352AE77 /* libPods-WKKeepVideoPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8103360526CF4E5A00692B97 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +130,8 @@
 				8103362C26CF4E5B00692B97 /* WKKeepVideoPlayerTests */,
 				8103363726CF4E5B00692B97 /* WKKeepVideoPlayerUITests */,
 				8103360F26CF4E5A00692B97 /* Products */,
+				D5A0006E7C0065DB9D6B7738 /* Pods */,
+				0BFB24E51BADE9EBDC21E342 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +148,7 @@
 		8103361026CF4E5A00692B97 /* WKKeepVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				8103361126CF4E5A00692B97 /* AppDelegate.h */,
-				8103361226CF4E5A00692B97 /* AppDelegate.m */,
-				8103361426CF4E5A00692B97 /* SceneDelegate.h */,
-				8103361526CF4E5A00692B97 /* SceneDelegate.m */,
-				8103361726CF4E5A00692B97 /* ViewController.h */,
-				8103361826CF4E5A00692B97 /* ViewController.m */,
+				8103369B26CF536600692B97 /* VideoKeepPlayer */,
 				8103361A26CF4E5A00692B97 /* Main.storyboard */,
 				8103361D26CF4E5B00692B97 /* Assets.xcassets */,
 				8103361F26CF4E5B00692B97 /* LaunchScreen.storyboard */,
@@ -137,6 +176,86 @@
 			path = WKKeepVideoPlayerUITests;
 			sourceTree = "<group>";
 		};
+		8103366D26CF535E00692B97 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				8103365B26CF50F200692B97 /* NetworkSpeedMonitor.h */,
+				8103365C26CF50F200692B97 /* NetworkSpeedMonitor.m */,
+				810336CC26CF7FAD00692B97 /* UIFont+Pingfang.h */,
+				810336CD26CF7FAD00692B97 /* UIFont+Pingfang.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		8103369B26CF536600692B97 /* VideoKeepPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				8103361126CF4E5A00692B97 /* AppDelegate.h */,
+				8103361226CF4E5A00692B97 /* AppDelegate.m */,
+				8103361526CF4E5A00692B97 /* SceneDelegate.m */,
+				8103364E26CF4E6B00692B97 /* ViewController.h */,
+				8103364D26CF4E6B00692B97 /* ViewController.m */,
+				816BBB8C26D3838A00A0DF1E /* Source */,
+				8103366D26CF535E00692B97 /* Tool */,
+				810336BF26CF792200692B97 /* Models */,
+				810336BE26CF791C00692B97 /* Views */,
+				810336BD26CF790E00692B97 /* Controllers */,
+			);
+			path = VideoKeepPlayer;
+			sourceTree = "<group>";
+		};
+		810336BD26CF790E00692B97 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8103364C26CF4E6B00692B97 /* WKKeepVideoPlayerVC.h */,
+				8103364F26CF4E6B00692B97 /* WKKeepVideoPlayerVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		810336BE26CF791C00692B97 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8103365526CF4FE300692B97 /* WKVieoPlayerContainerView.h */,
+				8103365626CF4FE300692B97 /* WKVieoPlayerContainerView.m */,
+				8103366126CF522B00692B97 /* WKVideoBottomStripView.h */,
+				8103366226CF522B00692B97 /* WKVideoBottomStripView.m */,
+				810336AA26CF57F800692B97 /* WKCustomSlider.h */,
+				810336AB26CF57F800692B97 /* WKCustomSlider.m */,
+				8103361426CF4E5A00692B97 /* SceneDelegate.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		810336BF26CF792200692B97 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				810336C026CF797100692B97 /* WKVideoModel.h */,
+				810336C126CF797100692B97 /* WKVideoModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		816BBB8C26D3838A00A0DF1E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				810336E026CF819C00692B97 /* videosArray.json */,
+				816BBB8126D37DE400A0DF1E /* 0.mp4 */,
+				816BBB7C26D37DB000A0DF1E /* 1.mp4 */,
+				8103370226CFA38100692B97 /* 2.mp4 */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D5A0006E7C0065DB9D6B7738 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0629C7D2DF60F6681E3FBAE /* Pods-WKKeepVideoPlayer.debug.xcconfig */,
+				79A3843AB73CBB294640833C /* Pods-WKKeepVideoPlayer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +263,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8103363D26CF4E5B00692B97 /* Build configuration list for PBXNativeTarget "WKKeepVideoPlayer" */;
 			buildPhases = (
+				3CEF18E1F725468CA92A63E2 /* [CP] Check Pods Manifest.lock */,
 				8103360A26CF4E5A00692B97 /* Sources */,
 				8103360B26CF4E5A00692B97 /* Frameworks */,
 				8103360C26CF4E5A00692B97 /* Resources */,
@@ -241,7 +361,11 @@
 			files = (
 				8103362126CF4E5B00692B97 /* LaunchScreen.storyboard in Resources */,
 				8103361E26CF4E5B00692B97 /* Assets.xcassets in Resources */,
+				810336E126CF819C00692B97 /* videosArray.json in Resources */,
+				8103370326CFA38100692B97 /* 2.mp4 in Resources */,
+				816BBB8226D37DE400A0DF1E /* 0.mp4 in Resources */,
 				8103361C26CF4E5A00692B97 /* Main.storyboard in Resources */,
+				816BBB7D26D37DB000A0DF1E /* 1.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,14 +385,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3CEF18E1F725468CA92A63E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WKKeepVideoPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8103360A26CF4E5A00692B97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8103361926CF4E5A00692B97 /* ViewController.m in Sources */,
+				8103365726CF4FE300692B97 /* WKVieoPlayerContainerView.m in Sources */,
 				8103361326CF4E5A00692B97 /* AppDelegate.m in Sources */,
 				8103362426CF4E5B00692B97 /* main.m in Sources */,
+				810336C226CF797100692B97 /* WKVideoModel.m in Sources */,
+				8103365D26CF50F200692B97 /* NetworkSpeedMonitor.m in Sources */,
+				8103365026CF4E6B00692B97 /* ViewController.m in Sources */,
+				8103365126CF4E6B00692B97 /* WKKeepVideoPlayerVC.m in Sources */,
+				810336AC26CF57F800692B97 /* WKCustomSlider.m in Sources */,
+				810336CE26CF7FAD00692B97 /* UIFont+Pingfang.m in Sources */,
+				8103366326CF522B00692B97 /* WKVideoBottomStripView.m in Sources */,
 				8103361626CF4E5A00692B97 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,36 +594,42 @@
 		};
 		8103363E26CF4E5B00692B97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0629C7D2DF60F6681E3FBAE /* Pods-WKKeepVideoPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 92K45NKY47;
+				DEVELOPMENT_TEAM = 6W2956GQ2D;
 				INFOPLIST_FILE = WKKeepVideoPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.WKKeepVideoPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = test.WKKeepVideoPlayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		8103363F26CF4E5B00692B97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79A3843AB73CBB294640833C /* Pods-WKKeepVideoPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 92K45NKY47;
+				DEVELOPMENT_TEAM = 6W2956GQ2D;
 				INFOPLIST_FILE = WKKeepVideoPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.WKKeepVideoPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = test.WKKeepVideoPlayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
