@@ -1,2 +1,3 @@
 # VideoPlayer
 Object-C仿keep视频播放器
+Demo加载的本地视频资源，框架基于苹果AVKit，AVPlayer播放器配合AVPlayerLayer自定义视图，简单实现了类KeepApp的视频播放，本框架为个人整理不涉及商用，如有问题联系QQ：815476562
